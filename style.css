@@ -1,0 +1,77 @@
+body
+{
+  text-align: center;
+ 
+  
+}
+h1{
+  text-shadow:2px 2px #1DE9B6;
+}
+.profile{
+  width:200px;
+  border-radius:40px;
+}
+p{
+  size:50px;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    cursor:pointer;
+    z-index:10;
+    width: 100%;
+
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    color:rgb(216, 110, 198);
+  
+}
+
+.links:hover{
+    background-color: rgb(209, 241, 245);
+    font-size: 20px;
+}
+.sec2{
+  background:linear-gradient(rgb(215, 233, 149),rgb(240, 202, 208));
+}
+#entry{
+  
+  background:linear-gradient(lightblue,pink);
+  height: 600px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  overflow:visible;
+  display: table;
+  height: 90%;
+}
+#favfoods{
+width: 100%;
+height: 100%;
+}
+#Favbooks{
+  width:100%;
+  height:100%;
+}
+#Book
+{
+  width:100%;
+  height:100%;
+
+}
+#inspiration{
+  width:100%;
+  height:100%;
+  background-color: rgb(255, 193, 224);
+}
+img{
+  transition: transform.2s; ;
+}
